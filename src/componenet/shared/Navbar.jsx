@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import Logo from "../Logo";
 import menu from "../../assets/icons/Menu.svg";
 import Button from "../Button";
-import { Icon } from "@mui/material";
+
 
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
             <li>
               <Button
                 text="Contact Us"
-                style="py-2 px-5  bg-[#7C4EE4] text-white rounded-lg whitespace-nowrap"
+                btnstyle="py-2 px-5  bg-[#7C4EE4] text-white rounded-lg whitespace-nowrap"
                 click={() => navigate("/contact")}
               />
             </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
             <li>
               <Button
                 text="Contact Us"
-                style="py-2 px-5  bg-[#7C4EE4] text-white rounded-lg whitespace-nowrap"
+                btnstyle="py-2 px-5  bg-[#7C4EE4] text-white rounded-lg whitespace-nowrap"
                 click={() => navigate("/contact")}
               />
             </li>

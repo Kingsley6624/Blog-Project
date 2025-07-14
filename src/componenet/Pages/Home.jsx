@@ -3,7 +3,6 @@ import Herosection from "../Herosection";
 import Homecard from "../Homecard";
 import Homecard2 from "../Homecard2";
 import Homecard1 from "../Homecard1";
-import Homecard3 from "../Homecard3";
 
 const Home = () => {
   return (

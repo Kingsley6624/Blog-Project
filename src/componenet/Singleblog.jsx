@@ -12,7 +12,7 @@ import Singlebloglist from './Singlebloglist';
 
 
 const Singleblog = () => {
-  const {} = useParams();
+  ///const {id} = useParams();
  
     const cardList = [
     
