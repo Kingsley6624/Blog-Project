@@ -5,9 +5,8 @@ import Viewallpost from './Viewallpost'
 import img4 from "../assets/images/Container (1).png";
 import img5 from "../assets/images/Image Placeholder (4).png";
 import img6 from "../assets/images/Container (3).png";
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import Singlebloglist from './Singlebloglist';
-// import Singlebloglist from './Singlebloglist';
 
 
 
