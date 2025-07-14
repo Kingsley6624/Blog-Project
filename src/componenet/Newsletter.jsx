@@ -17,7 +17,7 @@ const Newsletter = () => {
           />
           <Button 
           text="Get Started"
-          style="bg-transparent  border border-white px-4 py-2 rounded-xl whitespace-nowrap"/>
+          btnstyle="bg-transparent  border border-white px-4 py-2 rounded-xl whitespace-nowrap"/>
         </form>
         <div className=" px-6">
         <p>

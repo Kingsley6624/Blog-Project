@@ -1,9 +1,7 @@
 import React from "react";
 import Herosection from "../Herosection";
 import Homecard from "../Homecard";
-import Viewallpost from "../Viewallpost";
 import Homecard2 from "../Homecard2";
-import Card from "../Card";
 import Homecard1 from "../Homecard1";
 import Homecard3 from "../Homecard3";
 

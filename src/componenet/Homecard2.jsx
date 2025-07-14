@@ -2,7 +2,7 @@ import React from "react";
 import img7 from "../assets/images/Container (1).png";
 import img5 from "../assets/images/Image Placeholder (4).png";
 import img9 from "../assets/images/Image Placeholder (5).png";
-import { Link } from "react-router-dom";
+
 import Card from "./Card";
 import Viewallpost from "./Viewallpost";
 import Homecard3 from "./Homecard3";

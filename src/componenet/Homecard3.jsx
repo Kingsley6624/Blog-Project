@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import img from "../assets/images/home-image.png";
 import Button from "./Button";
 
@@ -33,7 +32,7 @@ const Homecard3 = () => {
           </p>
           <Button
             text="Read More"
-            style="bg-transparent text-[#7C4EE4] border border-[#7C4EE4] font-bold text-base px-6 py-2 rounded-md hover:bg-[#5a3bbf] hover:text-white transition duration-300 ease-in-out"
+            btnstyle="bg-transparent text-[#7C4EE4] border border-[#7C4EE4] font-bold text-base px-6 py-2 rounded-md hover:bg-[#5a3bbf] hover:text-white transition duration-300 ease-in-out"
           />
         </div>
       </div>

@@ -12,7 +12,7 @@ const About = () => {
         heading="Creative Blog Writting and publishing site"
         bodyText="Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
       />
-      <img src={aboutimg} alt="about image" />
+      <img src={aboutimg} alt="aboutImage" />p
       <Howwework />
       <Aboutcard />
     </div>

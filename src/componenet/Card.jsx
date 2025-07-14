@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link} from 'react-router-dom'
 
-const Card = ({style, key, img, detail, date, head, body, linkName, link}) => {
+const Card = ({ key, img, detail, date, head, body, linkName, link}) => {
 
  
   return (

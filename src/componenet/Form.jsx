@@ -28,7 +28,7 @@ const Form = () => {
          <Button 
           type='submit'
          text='Send Message'
-         style='py-2 px-5  bg-[#7C4EE4] text-white rounded-lg whitespace-nowrap'/>
+         btnstyle='py-2 px-5  bg-[#7C4EE4] text-white rounded-lg whitespace-nowrap'/>
       </form>
   );
 };

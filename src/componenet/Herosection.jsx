@@ -19,7 +19,7 @@ const Herosection = () => {
         </p>
         <Button
           text="Read more"
-          style="py-2 px-5  bg-white text-[#373737] text-[10.05px] rounded-[5.74px] whitespace-nowrap"
+          btnstyle="py-2 px-5  bg-white text-[#373737] text-[10.05px] rounded-[5.74px] whitespace-nowrap"
         />
         </div>
         
