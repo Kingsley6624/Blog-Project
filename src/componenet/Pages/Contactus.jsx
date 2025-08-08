@@ -1,8 +1,7 @@
 import React from "react";
-import Pagehead from "../Pagehead";
-import Contactcard from "../Contactcard";
-import Form from "../Form";
-
+import Pagehead from "../shared/Pagehead";
+import Contactcard from "../Contact/Contactcard";
+import Form from "../Contact/Form";
 
 const Contactus = () => {
   return (
@@ -15,10 +14,9 @@ const Contactus = () => {
 
       <div className="relative z-0 w-full h-[908.42px] flex flex-col items-center sm:h-[750.25px]">
         <div className="bg-no-repeat  bg-cover  bg-mobile md:bg-tablet lg:bg-desktop h-[382px] w-full"></div>
-        <Form/>
-    </div>
+        <Form />
       </div>
-      
+    </div>
   );
 };
 

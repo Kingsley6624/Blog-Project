@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Newsletter from "../Newsletter";
-import Logo from "../Logo";
-import Sociallink from "../Sociallink";
+import Newsletter from "../Footer/Newsletter";
+import Logo from "./Logo";
+import Sociallink from "../Footer/Sociallink";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -34,7 +34,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="pt-6">Copyright Ideapeel Inc © {currentYear}. All Right Reserved</p>
+        <p className="pt-6">
+          Copyright Ideapeel Inc © {currentYear}. All Right Reserved
+        </p>
       </div>
     </div>
   );

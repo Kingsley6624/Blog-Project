@@ -1,8 +1,8 @@
 import React from "react";
-import Herosection from "../Herosection";
-import Homecard from "../Homecard";
-import Homecard2 from "../Homecard2";
-import Homecard1 from "../Homecard1";
+import Herosection from "../Home/Herosection";
+import PopularPostCard from "../Home/PopularPostCard";
+import Homecard2 from "../Home/Homecard2";
+import Homecard1 from "../Home/Homecard1";
 
 const Home = () => {
   return (
@@ -11,8 +11,7 @@ const Home = () => {
       <div className="flex flex-col items-center w-full gap-5">
         <Homecard1 />
         <Homecard2 />
-       
-        <Homecard />
+        <PopularPostCard />
       </div>
     </div>
   );

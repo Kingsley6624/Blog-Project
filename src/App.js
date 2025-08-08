@@ -9,9 +9,10 @@ import About from './componenet/Pages/About';
 import Blog from './componenet/Pages/Blog';
 import Home from './componenet/Pages/Home'
 import Notfoundpage from './componenet/Pages/Notfoundpage';
-
+import SingleBlog from './componenet/Pages/SingleBlog';
 import Bloglayout from './componenet/Layout/Bloglayout';
-import Singleblog from './componenet/Singleblog';
+
+
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
 
       <Route path='blog' element={<Bloglayout />}> 
       <Route index element={<Blog />} />
-      <Route path=':id' element={<Singleblog />} />
+      <Route path=':id' element={<SingleBlog />} />
       </Route>
 
       <Route path='about' element={<About />} />

@@ -6,7 +6,7 @@ const Card = ({ key, img, detail, date, head, body, linkName, link}) => {
  
   return (
       <div Key={key}
-          className="flex flex-col items-start justify-center gap-4 max-w-[402px]">
+          className="flex flex-col items-start justify-center gap-4 ">
         <img src={img} alt="" />
         <div className="flex items-center gap-2">
           <span className="font-bold text-xs text-[#333333]">{detail}</span>

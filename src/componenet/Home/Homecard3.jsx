@@ -1,6 +1,6 @@
 import React from "react";
-import img from "../assets/images/home-image.png";
-import Button from "./Button";
+import img from "../../assets/images/home-image.png";
+import Button from "../shared/Button";
 
 const Homecard3 = () => {
   return (

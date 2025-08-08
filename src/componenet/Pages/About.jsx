@@ -1,8 +1,8 @@
 import React from "react";
-import Pagehead from "../Pagehead";
+import Pagehead from "../shared/Pagehead";
 import aboutimg from "../../assets/images/Image Placeholder (6).png"
-import Aboutcard from "../shared/Aboutcard";
-import Howwework from "../Howwework";
+import Aboutcard from "../About/Aboutcard"
+import Howwework from "../About/Howwework";
 
 const About = () => {
   return (
@@ -12,7 +12,7 @@ const About = () => {
         heading="Creative Blog Writting and publishing site"
         bodyText="Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
       />
-      <img src={aboutimg} alt="aboutImage" />p
+      <img src={aboutimg} alt="aboutImage" />
       <Howwework />
       <Aboutcard />
     </div>

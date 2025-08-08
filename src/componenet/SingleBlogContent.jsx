@@ -1,8 +1,9 @@
 import React from "react";
-import img1 from "../assets/images/home-image.png";import img2 from "../assets/images/singlepageIMG.png";
+import img1 from "../assets/images/home-image.png";
+import img2 from "../assets/images/singlepageIMG.png";
 
 
-const Singlebloglist = () => {
+const SingleBlogContent = () => {
  
 
   return (
@@ -33,4 +34,4 @@ const Singlebloglist = () => {
   );
 };
 
-export default Singlebloglist;
+export default SingleBlogContent;
