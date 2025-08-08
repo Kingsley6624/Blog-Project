@@ -19,7 +19,7 @@ const PopularPostCard = () => {
             head={card.head}
             body={card.body}
             linkName={card.link}
-            link=""
+            link={`/blog/${card.id}`}
           />
         ))}
       </div>
